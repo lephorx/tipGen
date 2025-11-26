@@ -1,37 +1,35 @@
 # Tip Calculator
 
 ## Overview
-This is a simple **Tip Calculator** web application that helps users calculate the tip amount and total bill based on a selected tip percentage.
+
+A simple web app for calculating tip and total based on the bill and selected percentage.
 
 ## Features
-- Users can input the bill amount.
-- Choose from predefined tip percentages (10%, 15%, 20%).
-- Submit the form to see the calculated tip amount and total bill.
-- Error handling for missing inputs.
 
-## Technologies Used
-- **HTML**: Structure of the web page
-- **CSS**: Styling (located in `css/styles.css`)
-- **JavaScript**: Logic for calculations (located in `js/script.js`)
+* Enter bill amount
+* Select preset tip percentages
+* Calculates tip and total
+* Basic input validation
 
-## File Structure
+## Technologies
+
+HTML, CSS, JavaScript
+
+## Structure
+
 ```
-project-folder/
-│── index.html  # Main HTML file
-│── css/
-│   └── styles.css  # Stylesheet for design
-│── js/
-│   └── script.js  # JavaScript file for calculations
+index.html
+css/styles.css
+js/script.js
 ```
 
 ## How to Use
-1. Open `index.html` in a browser or go to the website: https://ramon-3oo.github.io/tipGen/.
-2. Enter the **bill amount** in the input field.
-3. Select a **tip percentage**.
-4. Click the **Submit** button.
-5. View the calculated **tip amount** and **total bill**.
 
+1. Open `index.html` or visit: [https://lephorx.github.io/tipGen/](https://lephorx.github.io/tipGen/)
+2. Enter bill amount
+3. Choose a tip percentage
+4. Submit to view tip and total
 
 ## License
-This project is open-source and can be modified or used as needed.
 
+Open-source; modify as needed.
